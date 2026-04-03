@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Directions &amp; Contact — Bright View Farm</title>
+  <meta name="description" content="Contact Bright View Farm in Chesterfield, NJ. Call 609-575-3255 or email Brightviewfarm@aol.com. Located at 39 Georgetown-Wrightstown Road, 45 minutes from Philadelphia.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- SITE HEADER -->
+  <header class="site-header">
+    <a href="index.html" class="logo-link">
+      <img src="images/logo.svg" alt="Bright View Farm" class="site-logo">
+    </a>
+  </header>
+
+  <!-- NAVIGATION -->
+  <nav class="nav">
+    <div class="container nav__inner">
+<button class="nav__toggle" aria-label="Toggle navigation"
+        onclick="this.closest('nav').querySelector('.nav__links').classList.toggle('open')">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Farm Services</a></li>
+        <li><a href="our-story.html">Our Story</a></li>
+        <li><a href="news.html">News &amp; Accolades</a></li>
+        <li><a href="contact.html" class="active">Directions &amp; Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero" style="background-image: url('http://brightviewfarm.com/newsite/wp-content/uploads/2012/08/home-final-cropped-940x358_c.jpg');">
+    <div class="container">
+      <div class="page-hero__content">
+        <p class="page-hero__eyebrow">Chesterfield, New Jersey</p>
+        <h1 class="page-hero__title">Directions &amp; Contact</h1>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+
+        <!-- Left: Info + Directions -->
+        <div>
+          <p class="section-label">Find Us</p>
+          <div class="gold-divider"></div>
+          <h2 class="section-heading">Bright View Farm</h2>
+          <p style="color:var(--text-muted); font-size:0.97rem; margin-bottom:36px; line-height:1.8;">We are located in Chesterfield, New Jersey — 45 minutes from Philadelphia, 45 minutes from Monmouth Racetrack, and 1.5 hours from New York City.</p>
+
+          <div class="contact-info__block">
+            <div class="contact-info__icon">&#128205;</div>
+            <div>
+              <p class="contact-info__label">Address</p>
+              <p class="contact-info__value">
+                39 Georgetown-Wrightstown Road (Route 545)<br>
+                Chesterfield, NJ 08515
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-info__block">
+            <div class="contact-info__icon">&#128222;</div>
+            <div>
+              <p class="contact-info__label">Phone</p>
+              <p class="contact-info__value">
+                <a href="tel:6095753255">609-575-3255</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="contact-info__block">
+            <div class="contact-info__icon">&#9993;</div>
+            <div>
+              <p class="contact-info__label">Email</p>
+              <p class="contact-info__value">
+                <a href="mailto:Brightviewfarm@aol.com">Brightviewfarm@aol.com</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="directions-card">
+            <h3>Driving Directions</h3>
+            <p>From the New Jersey Turnpike, take <strong>Exit 7 (Bordentown)</strong> and merge onto <strong>Route 206 North</strong>. At the second traffic light, turn <strong>right onto Georgetown Road (Route 545 South)</strong>. After 6.5 miles, you will see the black fences of Bright View Farm on the left.</p>
+          </div>
+        </div>
+
+        <!-- Right: Contact Form -->
+        <div>
+          <form class="contact-form"
+                action="https://formspree.io/f/YOUR_FORM_ID"
+                method="POST">
+            <!-- To activate this form: create a free account at formspree.io,
+                 create a new form, and replace YOUR_FORM_ID with your form's ID. -->
+
+            <h3 class="contact-form__heading">Send Us a Message</h3>
+            <p class="contact-form__sub">Interested in boarding, lay-up, or sales preparation? We'd love to hear from you. We'll respond within one business day.</p>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Jane Smith" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000">
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="inquiry">Inquiry Type</label>
+              <select id="inquiry" name="inquiry">
+                <option value="" disabled selected>Select an inquiry type</option>
+                <option value="boarding">Year-Round or Seasonal Boarding</option>
+                <option value="layup">Rehabilitation &amp; Lay-Up</option>
+                <option value="sales">Sales Preparation</option>
+                <option value="general">General Inquiry</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell us about your horses and what you're looking for..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn--green" style="width:100%; font-size:12px; padding:14px;">Send Message</button>
+          </form>
+        </div>
+
+      </div>
+
+      <!-- Map -->
+      <div class="map-section">
+        <p class="map-section__label">&#128205; 39 Georgetown-Wrightstown Road, Chesterfield, NJ 08515</p>
+        <iframe
+          src="https://maps.google.com/maps?q=39+Georgetown-Wrightstown+Road,+Chesterfield,+NJ+08515&output=embed&z=14"
+          title="Bright View Farm location"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div>
+          <p class="footer__logo">Bright View Farm</p>
+          <p class="footer__tagline">A premier Thoroughbred breeding and boarding operation on 270 acres in Chesterfield, New Jersey. Established 1975 by John Connelly. Operated today by Christine Connelly.</p>
+          <p class="footer__award-note">&#9733; Home of Book'em Danno &mdash; 2025 Eclipse Award Champion Male Sprinter</p>
+        </div>
+        <div>
+          <p class="footer__heading">Navigation</p>
+          <ul class="footer__links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Farm Services</a></li>
+            <li><a href="our-story.html">Our Story</a></li>
+            <li><a href="news.html">News &amp; Accolades</a></li>
+            <li><a href="contact.html">Directions &amp; Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <p class="footer__heading">Contact</p>
+          <p class="footer__contact-line">39 Georgetown-Wrightstown Rd<br>Chesterfield, NJ 08515</p>
+          <p class="footer__contact-line"><a href="tel:6095753255">609-575-3255</a></p>
+          <p class="footer__contact-line"><a href="mailto:Brightviewfarm@aol.com">Brightviewfarm@aol.com</a></p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copy">&copy; 2026 Bright View Farm. All rights reserved.</p>
+        <p class="footer__copy">TOBA NJ Breeder of the Year &middot; 2011, 2022, 2023, 2024</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>

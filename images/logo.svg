@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 113" role="img" aria-label="Bright View Farm — Since 1975">
+  <title>Bright View Farm</title>
+  <rect width="380" height="113" fill="#2D4A35"/>
+  <text
+    x="190" y="34"
+    text-anchor="middle"
+    font-family="'Playfair Display', Georgia, 'Times New Roman', serif"
+    font-size="26"
+    font-weight="400"
+    fill="#FFFFFF"
+    letter-spacing="2"
+  >Bright View Farm</text>
+  <polygon points="90,45 115,70 90,95 65,70"  fill="#FFFFFF" stroke="#2D4A35" stroke-width="0.75"/>
+  <polygon points="140,45 165,70 140,95 115,70" fill="#FFFFFF" stroke="#2D4A35" stroke-width="0.75"/>
+  <polygon points="190,45 215,70 190,95 165,70" fill="#FFFFFF" stroke="#2D4A35" stroke-width="0.75"/>
+  <polygon points="240,45 265,70 240,95 215,70" fill="#FFFFFF" stroke="#2D4A35" stroke-width="0.75"/>
+  <polygon points="290,45 315,70 290,95 265,70" fill="#FFFFFF" stroke="#2D4A35" stroke-width="0.75"/>
+  <text
+    x="190" y="110"
+    text-anchor="middle"
+    font-family="'Lato', 'Inter', Arial, sans-serif"
+    font-size="11"
+    font-weight="400"
+    fill="#FFFFFF"
+    letter-spacing="3"
+  >SINCE 1975</text>
+</svg>
