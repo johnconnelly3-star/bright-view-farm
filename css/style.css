@@ -223,7 +223,7 @@ body {
    ============================================================ */
 .hero {
   position: relative;
-  min-height: 540px;
+  min-height: clamp(320px, 34vw, 620px);
   display: flex;
   align-items: center;
   background-size: cover;
