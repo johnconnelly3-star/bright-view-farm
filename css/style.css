@@ -257,7 +257,7 @@ body {
    (not sky or foreground grass) stays in frame at wide aspect ratios. */
 .our-story-hero .hero-slide:nth-child(1) { background-position: center 40%; }
 .our-story-hero .hero-slide:nth-child(2) { background-position: center 60%; }
-.our-story-hero .hero-slide:nth-child(3) { background-position: center 15%; }
+.our-story-hero .hero-slide:nth-child(3) { background-position: center 22%; }
 .our-story-hero .hero-slide:nth-child(5) { background-position: center 70%; }
 
 @keyframes hero-slide-fade {
