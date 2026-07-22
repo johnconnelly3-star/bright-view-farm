@@ -255,9 +255,6 @@ body {
 
 /* Our Story slideshow — per-photo crop adjustments so the subject
    (not sky or foreground grass) stays in frame at wide aspect ratios. */
-.our-story-hero .hero-slide:nth-child(1) { background-position: center 40%; }
-.our-story-hero .hero-slide:nth-child(2) { background-position: center 5%; }
-.our-story-hero .hero-slide:nth-child(3) { background-position: center 74%; }
 .our-story-hero .hero-slide:nth-child(4) { background-position: center 82%; }
 
 @keyframes hero-slide-fade {
