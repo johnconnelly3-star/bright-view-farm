@@ -256,9 +256,9 @@ body {
 /* Our Story slideshow — per-photo crop adjustments so the subject
    (not sky or foreground grass) stays in frame at wide aspect ratios. */
 .our-story-hero .hero-slide:nth-child(1) { background-position: center 40%; }
-.our-story-hero .hero-slide:nth-child(2) { background-position: center 60%; }
-.our-story-hero .hero-slide:nth-child(3) { background-position: center 22%; }
-.our-story-hero .hero-slide:nth-child(5) { background-position: center 70%; }
+.our-story-hero .hero-slide:nth-child(2) { background-position: center 50%; }
+.our-story-hero .hero-slide:nth-child(3) { background-position: center 42%; }
+.our-story-hero .hero-slide:nth-child(4) { background-position: center 82%; }
 
 @keyframes hero-slide-fade {
   0%     { opacity: 1; }
@@ -267,16 +267,6 @@ body {
   96.67% { opacity: 0; }
   100%   { opacity: 1; }
 }
-
-/* Our Story hero has a 6th slide (seasonal snow scene) — needs its own
-   evenly-spaced timing instead of the shared 5-slide/30s rotation. */
-.our-story-hero .hero-slide { animation: hero-slide-fade 36s infinite; }
-.our-story-hero .hero-slide:nth-child(1) { animation-delay: 0s; }
-.our-story-hero .hero-slide:nth-child(2) { animation-delay: -30s; }
-.our-story-hero .hero-slide:nth-child(3) { animation-delay: -24s; }
-.our-story-hero .hero-slide:nth-child(4) { animation-delay: -18s; }
-.our-story-hero .hero-slide:nth-child(5) { animation-delay: -12s; }
-.our-story-hero .hero-slide:nth-child(6) { animation-delay: -6s; }
 
 .hero__content {
   position: relative;
