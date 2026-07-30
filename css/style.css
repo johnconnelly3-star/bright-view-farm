@@ -253,10 +253,18 @@ body {
 
 .home-hero .hero-slide:nth-child(1) { background-position: 60% center; }
 
+/* Our Story slideshow has only 4 photos (not the standard 5), so it
+   needs its own timing: a 24s loop, 6s per photo. */
+.our-story-hero .hero-slide { animation-duration: 24s; }
+.our-story-hero .hero-slide:nth-child(1) { animation-delay: 0s; }
+.our-story-hero .hero-slide:nth-child(2) { animation-delay: -18s; }
+.our-story-hero .hero-slide:nth-child(3) { animation-delay: -12s; }
+.our-story-hero .hero-slide:nth-child(4) { animation-delay: -6s; }
+
 /* Our Story slideshow (full-bleed photos) — per-photo crop adjustment
    so the subject (not sky or foreground grass) stays in frame at wide
    aspect ratios. */
-.our-story-hero .hero-slide:nth-child(4) { background-position: center 82%; }
+.our-story-hero .hero-slide:nth-child(3) { background-position: center 82%; }
 
 @keyframes hero-slide-fade {
   0%     { opacity: 1; }
