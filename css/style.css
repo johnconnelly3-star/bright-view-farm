@@ -929,6 +929,13 @@ body {
   margin-bottom: 14px;
 }
 
+.news-item__image {
+  width: 100%;
+  height: auto;
+  border-radius: 2px;
+  margin: 6px 0 18px;
+}
+
 .news-item__video {
   position: relative;
   padding-bottom: 56.25%;
