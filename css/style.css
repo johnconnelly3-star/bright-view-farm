@@ -938,7 +938,9 @@ body {
 }
 
 .contact-info-center .contact-info__block {
-  justify-content: center;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: left;
 }
 
