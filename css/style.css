@@ -254,12 +254,27 @@ body {
 .home-hero .hero-slide:nth-child(1) { background-position: 60% center; }
 
 /* Our Story slideshow has only 4 photos (not the standard 5), so it
-   needs its own timing: a 24s loop, 6s per photo. */
-.our-story-hero .hero-slide { animation-duration: 24s; }
+   needs its own timing: a 24s loop, 6s per photo. It also needs its
+   own keyframes — the shared hero-slide-fade animation keeps each
+   photo "on" for only 1/5 of the loop, which left a gap (each photo
+   needs to stay on for 1/4 of the loop here, or every photo fades to
+   nothing in between and the page's background flashes through). */
+.our-story-hero .hero-slide {
+  animation-name: hero-slide-fade-4up;
+  animation-duration: 24s;
+}
 .our-story-hero .hero-slide:nth-child(1) { animation-delay: 0s; }
 .our-story-hero .hero-slide:nth-child(2) { animation-delay: -18s; }
 .our-story-hero .hero-slide:nth-child(3) { animation-delay: -12s; }
 .our-story-hero .hero-slide:nth-child(4) { animation-delay: -6s; }
+
+@keyframes hero-slide-fade-4up {
+  0%     { opacity: 1; }
+  20.83% { opacity: 1; }
+  25%    { opacity: 0; }
+  95.83% { opacity: 0; }
+  100%   { opacity: 1; }
+}
 
 /* Our Story slideshow (full-bleed photos) — per-photo crop adjustment
    so the subject (not sky or foreground grass) stays in frame at wide
