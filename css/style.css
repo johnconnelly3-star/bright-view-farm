@@ -1012,6 +1012,25 @@ body {
   text-align: left;
 }
 
+.contact-email-feature {
+  margin-bottom: 40px;
+}
+
+.contact-email-feature__address {
+  margin-top: 12px;
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.contact-email-feature__address a {
+  color: var(--green);
+  transition: color 0.2s;
+}
+
+.contact-email-feature__address a:hover {
+  color: var(--gold);
+}
+
 .contact-info__block {
   display: flex;
   gap: 16px;
