@@ -1,27 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 140" role="img" aria-label="Bright View Farm">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 156" role="img" aria-label="Bright View Farm">
   <title>Bright View Farm</title>
-  <rect width="380" height="140" fill="#2D4A35"/>
+  <rect width="380" height="156" fill="#2D4A35"/>
   <text
-    x="190" y="32"
+    x="190" y="38"
     text-anchor="middle"
     font-family="'Playfair Display', Georgia, 'Times New Roman', serif"
-    font-size="34"
+    font-size="42"
     font-weight="400"
     fill="#FFFFFF"
     letter-spacing="2"
   >Bright View</text>
   <text
-    x="190" y="70"
+    x="190" y="84"
     text-anchor="middle"
     font-family="'Playfair Display', Georgia, 'Times New Roman', serif"
-    font-size="34"
+    font-size="42"
     font-weight="400"
     fill="#FFFFFF"
     letter-spacing="2"
   >Farm</text>
-  <polygon points="90,80 115,105 90,130 65,105"  fill="#FFFFFF" stroke="#2D4A35" stroke-width="0.75"/>
-  <polygon points="140,80 165,105 140,130 115,105" fill="#FFFFFF" stroke="#2D4A35" stroke-width="0.75"/>
-  <polygon points="190,80 215,105 190,130 165,105" fill="#FFFFFF" stroke="#2D4A35" stroke-width="0.75"/>
-  <polygon points="240,80 265,105 240,130 215,105" fill="#FFFFFF" stroke="#2D4A35" stroke-width="0.75"/>
-  <polygon points="290,80 315,105 290,130 265,105" fill="#FFFFFF" stroke="#2D4A35" stroke-width="0.75"/>
+  <polygon points="90,96 115,121 90,146 65,121"  fill="#FFFFFF" stroke="#2D4A35" stroke-width="0.75"/>
+  <polygon points="140,96 165,121 140,146 115,121" fill="#FFFFFF" stroke="#2D4A35" stroke-width="0.75"/>
+  <polygon points="190,96 215,121 190,146 165,121" fill="#FFFFFF" stroke="#2D4A35" stroke-width="0.75"/>
+  <polygon points="240,96 265,121 240,146 215,121" fill="#FFFFFF" stroke="#2D4A35" stroke-width="0.75"/>
+  <polygon points="290,96 315,121 290,146 265,121" fill="#FFFFFF" stroke="#2D4A35" stroke-width="0.75"/>
 </svg>
