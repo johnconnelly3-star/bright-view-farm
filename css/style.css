@@ -954,7 +954,7 @@ body {
 
 .news-item__image {
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 9;
   object-fit: cover;
   object-position: center top;
   border-radius: 2px;
