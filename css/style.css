@@ -1296,3 +1296,11 @@ body {
 @media (max-width: 600px) {
   .site-logo { width: 220px; }
 }
+
+/* Homepage introduction and contact action. */
+.home-introduction { padding: 30px 20px 32px; text-align: center; background: var(--ivory); }
+.home-introduction h1 { margin: 0; color: var(--green); font-family: 'Lato', sans-serif; font-size: clamp(1.5rem, 2.5vw, 2.1rem); font-weight: 600; line-height: 1.25; }
+.home-introduction p { margin: 10px 0 18px; font-size: 1rem; }
+.home-introduction .btn { text-transform: none; letter-spacing: .02em; color: var(--charcoal); font-size: 1rem; }
+.home-introduction .btn:focus-visible { outline: 3px solid var(--green); outline-offset: 4px; }
+@media(max-width:600px) { .home-introduction { padding: 24px 12px; } }

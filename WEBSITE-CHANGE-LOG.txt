@@ -1,0 +1,20 @@
+BRIGHT VIEW FARM — WEBSITE CHANGE LOG
+For Christine Connolly, farm owner
+Maintained for John so Christine can review website changes afterward.
+
+October 3, 2026 — Clearer homepage introduction
+Approved by John after reviewing a local preview.
+
+What changed:
+- Added “Thoroughbred Breeding & Boarding” above the rotating farm photographs.
+- Added “Chesterfield, New Jersey” immediately below it.
+- Added a gold “Contact the Farm” button that opens the existing contact page.
+- Used Lato, the same font already used for the website’s body text, with a
+  modest heading size. No new font was added.
+
+Why:
+Visitors can immediately see what the farm offers, where it is located,
+and how to get in touch.
+
+The existing logo, photographs, farm information, and other pages were retained.
+Publication is tracked by this entry’s Git commit and the Netlify deployment.
