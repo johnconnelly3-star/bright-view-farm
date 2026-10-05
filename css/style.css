@@ -1304,3 +1304,18 @@ body {
 .home-introduction .btn { text-transform: none; letter-spacing: .02em; color: var(--charcoal); font-size: 1rem; }
 .home-introduction .btn:focus-visible { outline: 3px solid var(--green); outline-offset: 4px; }
 @media(max-width:600px) { .home-introduction { padding: 24px 12px; } }
+
+/* Homepage accessibility. */
+.skip-link { position: fixed; top: 8px; left: 8px; z-index: 1000; padding: 10px 16px; background: var(--ivory); color: var(--green); transform: translateY(-160%); }
+.skip-link:focus { transform: translateY(0); }
+a:focus-visible, button:focus-visible { outline: 3px solid var(--gold-light); outline-offset: 5px; }
+.nav__toggle { min-width: 44px; min-height: 44px; align-items: center; justify-content: center; }
+#main-content { scroll-margin-top: 80px; }
+.slideshow-controls { text-align: center; padding: 12px 0 0; }
+#slideshow-toggle { font: inherit; color: var(--green); background: var(--ivory); border: 1px solid var(--green); border-radius: 2px; padding: 8px 18px; min-height: 44px; cursor: pointer; }
+.photos-paused .hero-slide { animation-play-state: paused; }
+@media (prefers-reduced-motion: reduce) {
+ html { scroll-behavior: auto; }
+ .home-hero .hero-slide { animation-play-state: paused; }
+ .home-hero:not(.photos-paused) .hero-slide { animation-play-state: running; }
+}

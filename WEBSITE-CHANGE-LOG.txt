@@ -18,3 +18,21 @@ and how to get in touch.
 
 The existing logo, photographs, farm information, and other pages were retained.
 Publication is tracked by this entry’s Git commit and the Netlify deployment.
+
+October 5, 2026 — Homepage photos, accessibility, and awards
+All three changes approved for publication by John on October 5, following
+the October 3 preview.
+- Created smaller website copies of the two largest slideshow photographs.
+  The five-photo download total falls from 7.74 MB to 3.19 MB (about 59%).
+  Full-resolution originals are retained unchanged.
+- Added a Pause/Play photos button and support for reduced-motion preferences.
+- Enlarged the phone menu button; added open/closed announcements, Escape
+  to close the menu, visible keyboard focus, and a skip-to-content link.
+- Verified pause/resume, keyboard menu operation, and phone-width fit.
+  Reduced-motion handling is implemented but has not been tested with an
+  operating-system preference change.
+- Updated the New Jersey award list to seven years, including 2025.
+- Clarified the national award title and credited co-breeder Gregory Kilka
+  once for both shared 2025 TOBA honors.
+- Separated the awards into shorter paragraphs for easier reading.
+Publication is tracked by this entry’s Git commit and the Netlify deployment.
